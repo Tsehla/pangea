@@ -20,6 +20,9 @@ var server_listen_port = process.env.PORT || 3000;//port express server is runni
 //++++++++++ static elements ++++++++++
 app.use(express_module.static('public'));
 
+//++++++++++ favicon ++++++++++
+app.use('/favicon.ico', express_module.static('public/assets/favicon.ico'));
+
 
 // Parse URL-encoded bodies (as sent by HTML forms)
 //app.use(express_module.urlencoded({limit: '50mb'}));
