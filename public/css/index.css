@@ -13,6 +13,11 @@ body{
     display: none;
 }
 
+/* chrome */
+input:focus, textarea:focus, select:focus {
+    outline: none;
+}
+
 
 #main_footer_small {
     background: linear-gradient(to top, #2c3531 0%, #ffffff 100%);
