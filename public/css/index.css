@@ -14,7 +14,7 @@ body{
 }
 
 /* chrome */
-input:focus, textarea:focus, select:focus {
+.chrome_focus_outline_none {
     outline: none;
 }
 
