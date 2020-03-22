@@ -4,6 +4,24 @@ body{
     font-size: small;
 }
 
+/* hide */
+#main_header_full {
+    display: none;
+}
+
+#main_footer_full {
+    display: none;
+}
+
+
+#main_footer_small {
+    background: linear-gradient(to top, #2c3531 0%, #ffffff 100%);
+}
+
+#main_header_small {
+    
+    background: linear-gradient(to top, #2c3531 0%, #ffffff 100%);
+}
 /*
 {
     border: 1px solid red;

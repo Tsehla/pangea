@@ -17,7 +17,13 @@ if(location.protocol === 'http:'){
 function show_hide(div, to_show_hide = 'hide'){
 
     //if  show_hide = 'hide'; then hide the html division else show it
-    to_show_hide == 'hide'?document.getElementById(div).style.display='none' : document.getElementById(div).style.display='display';
+    to_show_hide == 'hide'?document.getElementById(div).style.display='none' : document.getElementById(div).style.display='block';
 }
 
 
+
+
+
+//----- main menu display control
+
+//function main_menu_click_show
