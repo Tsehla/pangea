@@ -28,11 +28,12 @@ body{
 }
 
 
-/* header */
+/* header/footer */
 /* --- small --- */
 #main_footer_small {
 
-    color: rgb(31, 189, 22);
+    /* color: rgb(31, 189, 22); */
+    color: rgba(0, 214, 252, 0.3);
     /* background: linear-gradient(to top, #2c3531 0%, #ffffff 100%); */
     min-width : 50px;
     width : auto; 
@@ -41,7 +42,7 @@ body{
     position: fixed;
     bottom: 0px; 
     right: auto;
-    margin:0px 48vw 10px 48vw; 
+    margin:0px 46vw 10px 46vw; 
     display: block; 
     border-radius: 10px;
 }
@@ -85,3 +86,307 @@ body{
     border-bottom-left-radius: 10px; 
     border-bottom-right-radius: 10px;
 }
+
+/* buttons styling */
+/* -- search input -- */
+.kave-btn-input {
+	position: relative;
+	border: solid 1px rgba(0, 214, 252, 0.3);
+	background: none;
+	color: rgba(0, 214, 252, 0.5);
+	font-family: "Roboto", sans-serif;
+	text-transform: uppercase;
+	font-weight: normal;
+	letter-spacing: 1.8px;
+	outline: none;
+}
+
+.kave-btn-input:hover {
+	box-shadow: 1px 1px 8px rgba(0, 214, 252, 0.3);
+	color: #00d6fc;
+	text-shadow: 0 0 8px rgba(0, 214, 252, 0.4);
+}
+
+
+/* -- search -- */
+.kave-trend-button-search {
+	position: relative;
+	border: solid 1px rgba(0, 214, 252, 0.3);
+	background: none;
+	color: rgba(0, 214, 252, 0.5);
+	font-family: "Roboto", sans-serif;
+	text-transform: uppercase;
+	font-weight: normal;
+	letter-spacing: 1.8px;
+	width: 200px;
+	height: 70px;
+	padding: 0;
+	transition: all 0.25s ease;
+	outline: none;
+}
+
+.kave-trend-button-search:before {
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 10%;
+	width: 30px;
+	height: 1px;
+	transform: translateY(-1px);
+	background: #00d6fc;
+	transition: all 0.25s ease;
+}
+
+.kave-trend-button-search:after {
+	content: "";
+	position: absolute;
+	bottom: 0;
+	right: 10%;
+	width: 30px;
+	height: 1px;
+	transform: translateY(1px);
+	background: #00d6fc;
+	transition: all 0.25s ease;
+}
+
+.kave-trend-button-search:hover {
+	box-shadow: 1px 1px 8px rgba(0, 214, 252, 0.3);
+	color: #00d6fc;
+	text-shadow: 0 0 8px rgba(0, 214, 252, 0.4);
+}
+
+.kave-trend-button-search:hover.kave-trend-button-search:before {
+	left: 0;
+	width: 20px;
+}
+
+.kave-trend-button-search:hover.kave-trend-button-search:after {
+	right: 0;
+	width: 20px;
+}
+
+.kave-trend-button-search:hover .kave-trend-button-search-line:before {
+	bottom: 0;
+}
+
+.kave-trend-button-search:hover .kave-trend-button-search-line:after {
+	top: 0;
+}
+
+
+
+/* -- post -- */
+.kave-post-button {
+	position: relative;
+	border: solid 1px rgba(0, 214, 252, 0.3);
+	background: none;
+	color: rgba(0, 214, 252, 0.5);
+	font-family: "Roboto", sans-serif;
+	text-transform: uppercase;
+	font-weight: normal;
+	letter-spacing: 1.8px;
+	width: 200px;
+	height: 70px;
+	padding: 0;
+	transition: all 0.25s ease;
+	outline: none;
+}
+
+.kave-post-button:before {
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 10%;
+	width: 30px;
+	height: 1px;
+	transform: translateY(-1px);
+	background: #00d6fc;
+	transition: all 0.25s ease;
+}
+
+.kave-post-button:after {
+	content: "";
+	position: absolute;
+	bottom: 0;
+	right: 10%;
+	width: 30px;
+	height: 1px;
+	transform: translateY(1px);
+	background: #00d6fc;
+	transition: all 0.25s ease;
+}
+
+.kave-post-button:hover {
+	box-shadow: 1px 1px 8px rgba(0, 214, 252, 0.3);
+	color: #00d6fc;
+	text-shadow: 0 0 8px rgba(0, 214, 252, 0.4);
+}
+
+.kave-post-button:hover.kave-post-button:before {
+	left: 0;
+	width: 20px;
+}
+
+.kave-post-button:hover.kave-post-button:after {
+	right: 0;
+	width: 20px;
+}
+
+.kave-post-button:hover .kave-post-button-line:before {
+	bottom: 0;
+}
+
+.kave-post-button:hover .kave-post-button-line:after {
+	top: 0;
+}
+
+
+
+/*  -- home -- */
+.kave-trend-button-home {
+	position: relative;
+	border: solid 1px rgba(0, 214, 252, 0.3);
+	background: none;
+	color: rgba(0, 214, 252, 0.5);
+	font-family: "Roboto", sans-serif;
+	text-transform: uppercase;
+	font-weight: normal;
+	letter-spacing: 1.8px;
+	width: 200px;
+	height: 70px;
+	padding: 0;
+	transition: all 0.25s ease;
+	outline: none;
+}
+
+.kave-trend-button-home:before {
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 10%;
+	width: 30px;
+	height: 1px;
+	transform: translateY(-1px);
+	background: #00d6fc;
+	transition: all 0.25s ease;
+}
+
+.kave-trend-button-home:after {
+	content: "";
+	position: absolute;
+	bottom: 0;
+	right: 10%;
+	width: 30px;
+	height: 1px;
+	transform: translateY(1px);
+	background: #00d6fc;
+	transition: all 0.25s ease;
+}
+
+.kave-trend-button-home:hover {
+	box-shadow: 1px 1px 8px rgba(0, 214, 252, 0.3);
+	color: #00d6fc;
+	text-shadow: 0 0 8px rgba(0, 214, 252, 0.4);
+}
+
+.kave-trend-button-home:hover.kave-trend-button-home:before {
+	left: 0;
+	width: 20px;
+}
+
+.kave-trend-button-home:hover.kave-trend-button-home:after {
+	right: 0;
+	width: 20px;
+}
+
+.kave-trend-button-home:hover .kave-trend-button-home:before {
+	bottom: 0;
+}
+
+.kave-trend-button-home:hover .kave-trend-button-home-line:after {
+	top: 0;
+}
+
+.kave-trend-button-home-line:before {
+	content: "";
+	position: absolute;
+	bottom: 30%;
+	right: 0;
+	width: 1px;
+	height: 20px;
+	transform: translateX(1px);
+	background: #00d6fc;
+	transition: all 0.25s ease;
+}
+
+.kave-trend-button-home-line:after {
+	content: "";
+	position: absolute;
+	top: 30%;
+	left: 0;
+	width: 1px;
+	height: 20px;
+	transform: translateX(-1px);
+	background: #00d6fc;
+	transition: all 0.25s ease;
+}
+
+/*  -- trend -- */
+.kave-trend-button {
+	position: relative;
+	border: solid 1px rgba(0, 214, 252, 0.3);
+	background: none;
+	color: rgba(0, 214, 252, 0.5);
+	font-family: "Roboto", sans-serif;
+	text-transform: uppercase;
+	font-weight: normal;
+	letter-spacing: 1.8px;
+	width: 200px;
+	height: 70px;
+	padding: 0;
+	transition: all 0.25s ease;
+	outline: none;
+}
+
+.kave-trend-button:before {
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 10%;
+	width: 30px;
+	height: 1px;
+	transform: translateY(-1px);
+	background: #00d6fc;
+	transition: all 0.25s ease;
+}
+
+.kave-trend-button:after {
+	content: "";
+	position: absolute;
+	bottom: 0;
+	right: 10%;
+	width: 30px;
+	height: 1px;
+	transform: translateY(1px);
+	background: #00d6fc;
+	transition: all 0.25s ease;
+}
+
+.kave-trend-button:hover {
+	box-shadow: 1px 1px 8px rgba(0, 214, 252, 0.3);
+	color: #00d6fc;
+	text-shadow: 0 0 8px rgba(0, 214, 252, 0.4);
+}
+
+.kave-trend-button:hover.kave-trend-button:before {
+	left: 0;
+	width: 20px;
+}
+
+.kave-trend-button:hover.kave-trend-button:after {
+	right: 0;
+	width: 20px;
+}
+
+
+
