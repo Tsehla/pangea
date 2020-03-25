@@ -489,6 +489,12 @@ body{
 /* body message box */
 
 #body_message_box_container {
+	width: 100vw;
+	height: auto;
+
+}
+.body_message_box {
+
 	box-sizing: border-box;
 	display: inline-block;
 	font: normal 100 14px/1.2em "Exo 2", Arial, sans-serif;
