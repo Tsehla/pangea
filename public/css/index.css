@@ -17,7 +17,9 @@
    background: linear-gradient(to right,#201c29,#201c29 1px,#100e17 1px,#100e17);
 }
 
-
+::placeholder {
+	color: white;
+}
 
 body{
     background-color: #2c3531;
@@ -42,7 +44,8 @@ body{
 
 /* chrome */
 .chrome_focus_outline_none {
-    outline: none;
+	outline: none;
+	
 }
 
 /* common */
@@ -524,11 +527,13 @@ body{
 }
 
 #extra_menu_box_contents_container {
-    font-size: 50px;
+	font-size: 50px;
+	color: white;
 
 }
 #extra_menu_box_contents_container_0{
 	font-size: 50px;
+	color: white;
 }
 
 
