@@ -1,7 +1,11 @@
+/* font import */
+@import url('https://fonts.googleapis.com/css?family=Exo+2&display=swap');
+
+
+
 body{
     background-color: #2c3531;
-	/* font-family: Arial, Helvetica, sans-serif; */
-	font: normal 100 1.429em/1em "Exo 2", Arial, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     font-size: small;
 }
 
@@ -502,6 +506,7 @@ body{
 
 .body_message_box_header {
 	box-sizing: border-box;
+	font: normal 100 1.429em/1em "Exo 2", Arial, sans-serif;
 	text-transform: uppercase;
 	padding: .4em 0;
 	margin: 0;
@@ -557,7 +562,7 @@ body{
 .message_interact {
 
 	box-sizing: border-box;
-	
+	font: normal 100 1.429em/1em "Exo 2", Arial, sans-serif;
 	text-transform: uppercase;
 	padding: .4em 0;
 	margin: 0;
