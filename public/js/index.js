@@ -27,3 +27,15 @@ function show_hide(div, to_show_hide = 'hide'){
 //----- main menu display control
 
 //function main_menu_click_show
+
+
+
+// +++++++++++++++++ body message +++++++++++++++++++++++
+
+//------------- search 
+
+function search(to_search, search_type=''){
+
+    alert(to_search, search_type);
+
+}

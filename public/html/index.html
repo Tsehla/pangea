@@ -57,21 +57,26 @@
 
 
         <!-- -- footer small -- -->
+        <!-- [ 1 ] -->
 
-        <!-- 
-        <div id="main_footer_small" class="box_shadow" style="" onclick="show_hide('main_footer_small', 'hide');show_hide('main_header_small', 'hide');show_hide('main_footer_full', 'show');show_hide('main_header_full', 'show');">
-        -->
-
-        <div id="main_footer_small" class="box_shadow" style="" onclick="show_hide('main_footer_small', 'hide');show_hide('main_footer_full', 'show');show_hide('main_header_full', 'show');show_hide('extra_menu_box_vertical_align', 'show')">
-
+        <div id="main_footer_small" class="box_shadow" style="" onclick="show_hide('main_footer_small', 'hide');show_hide('main_footer_full', 'show');show_hide('main_footer_small_0', 'hide');show_hide('main_header_full', 'show');show_hide('extra_menu_box_vertical_align', 'show');show_hide('extra_menu_box_vertical_align_0', 'hide')">
+           
             <i class='la la-bars' style="font-size: 50px;"></i>           
 
         </div>
 
+        <!-- [ 2 ] -->
+        <div id="main_footer_small_0" class="box_shadow" style="" onclick="show_hide(this.id, 'hide');show_hide('main_footer_small', 'show');show_hide('extra_menu_box_vertical_align_0', 'show')">
+
+            <i class='la la-braille' style="font-size: 50px;"></i>           
+
+        </div>
 
         <!-- -- body -- -->
 
         <!-- extra menu box -->
+
+        <!-- [ 1 ]-->
         <div id="extra_menu_box_vertical_align" class="" style="display: none;">
 
             <div id="extra_menu_box_horizontal_align" style="">
@@ -92,8 +97,73 @@
 
         </div>
 
+        <!-- [ 2 ] -->
+        <div id="extra_menu_box_vertical_align_0" class="" style="display: none;">
+
+            <div id="extra_menu_box_horizontal_align_0" style="margin-top: 30vh;">
+                <!-- 
+                <div id="extra_menu_box_decor_header" >
+                    //////////////////////////////////////////////////////////////////////////////
+                </div>
+                -->
+                <div id="extra_menu_box_contents_container_0" style=" " >
+
+                    <i class="las la-photo-video w3-margin"></i>
+                    <i class="las la-file-alt w3-margin"></i>
+                    <i class="las la-stream w3-margin"></i>
+                    <i class="las la-table w3-margin"></i>
+                    
+                </div>
+
+            </div>
+
+        </div>
+        
+        <!-- menu modals -->
 
 
+
+
+
+
+
+
+
+
+
+
+        <!-- message box -->
+
+        <div id="body_message_box_container" class="" style=" ">
+
+            <div id=" " class="body_message_box">
+
+                <div id=" " class="body_message_box_header">Text Options</div>
+                <!-- user name-->
+                <div id=" " class="body_message_username">tsehla</div>
+
+                <div id=" " class="body_message_box_image_container"><img class="body_message_box_image" src="https://www.extremetech.com/wp-content/uploads/2019/12/SONATA-hero-option1-764A5360-edit.jpg">  </div>
+                <div id=" " class="body_message_box_video"></div>
+
+                <div id=" " class="body_message_box_text">welcome</div>
+
+                <!-- tags -->
+                <div id=" " class="tags_container w3-margin">
+                    <span onclick="search(this.textContent, 'tag')">#first_message</span>
+                </div>
+
+
+                <!-- interact -->
+
+                <div id=" " class="message_interact">
+                    <i class="las la-heart message_interact_icons"></i> 
+                    <i class="las la-pen-fancy message_interact_icons"></i>
+                    <i class="las la-heart-broken message_interact_icons"></i>
+                </div>
+
+            </div>
+
+        </div>
 
 
 
